@@ -1,15 +1,13 @@
 # RTC8088
 Real Time Clock for your PC XT. Very low profile, simple and open hardware.
 
-![RTC8088 V3.0 3D Rendering](images/RTC8088-Front-3.0.png)
+![RTC8088 V3.1 3D Rendering](images/RTC8088-Front-3.1.png)
 
 ## Hardware Documentation
 
 ### Schematic and PCB Layout
 
 [Schematic - Version 3.0](KiCad/RTC8088-Schematic-3.0.pdf)
-
-[PCB Layout - Version 3.0](KiCad/RTC8088-Board-3.0.pdf)
 
 ### Swiches and Jumpers
 
@@ -47,7 +45,7 @@ closed         | Clear NVRAM memory
 Component type     | Reference | Description                                     | Quantity | Possible sources and notes 
 ------------------ | --------- | ----------------------------------------------- | -------- | --------------------------
 PCB                |           | RTC8088 PCB - Version 3.0                       | 1        | Order from your favorite PCB manufacturer using provided Gerber files
-Integrated Circuit | U1        | DS12885+ - RTC, 24 pin DIP                      | 1        | Mouser [700-DS12885](https://www.mouser.com/ProductDetail/700-DS12885) or [700-DS12885N](https://www.mouser.com/ProductDetail/700-DS12885N)
+Integrated Circuit | U1        | BQ3285S - RTC, 24 pin SO -24                    | 1        | Aliexpress :)
 Integrated Circuit | U2        | ATF16V8B-15PU - Simple Programmable Logic Device, 20 pin DIP | 1 | Mouser [556-AF16V8B15PU](https://www.mouser.com/ProductDetail/556-AF16V8B15PU) or GAL16V8
 Quartz Crystal     | Y1        | 32768 Hz, 6 pF                                  | 1        | Mouser [815-AB26T32768KHZ6B](https://www.mouser.com/ProductDetail/815-AB26T32768KHZ6B), [520-ECS327-6-13-X](https://www.mouser.com/ProductDetail/520-ECS327-6-13-X), or [628-VT200F-6PF20PPM](https://www.mouser.com/ProductDetail/628-VT200F-6PF20PPM)
 Battery Holder     | BT1       | CR2032 battery holder                           | 1        | Mouser [122-2620-GR](https://www.mouser.com/ProductDetail/122-2620-GR) or [122-2420-GR](https://www.mouser.com/ProductDetail/122-2420-GR)
@@ -68,6 +66,8 @@ The board is supported by the [8088 BIOS](https://github.com/skiselev/8088_bios)
 
 ### Changes
 
+* Version 3.1
+  * Change THT DS12885 to SMT BQ3285S
 * Version 3.0
   * Add I/O address configuration switches
   * Remove IRQ configuration jumpers and IRQ support
