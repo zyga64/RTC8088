@@ -7,7 +7,7 @@ Real Time Clock for your PC XT. Very low profile, simple and open hardware.
 
 ### Schematic and PCB Layout
 
-[Schematic - Version 3.0](KiCad/RTC8088-Schematic-3.0.pdf)
+[Schematic - Version 3.1](KiCad/RTC8088-Schematic-3.1.pdf)
 
 ### Swiches and Jumpers
 
@@ -36,11 +36,7 @@ closed         | Clear NVRAM memory
 
 ### Bill of Materials
 
-#### Version 3.0
-
-[RTC8088 project on Mouser.com](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=2877d21cfa) - View and order all components except of the FDC and the PCB.
-
-[RTC8088 on OSH Park](https://oshpark.com/shared_projects/bAF8uwKL) - View and order the PCB.
+#### Version 3.1
 
 Component type     | Reference | Description                                     | Quantity | Possible sources and notes 
 ------------------ | --------- | ----------------------------------------------- | -------- | --------------------------
