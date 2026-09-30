@@ -51,7 +51,6 @@ Resistor Array     | RN1       | 10 kohm, bussed, 5 pin SIP                     
 DIP Switch         | SW1       | DIP switch, 3 position, SPST                    | 1        | Mouser [774-2103MS](https://www.mouser.com/ProductDetail/774-2103MS)
 Pin Header         | JP1       | 2 pin header, 2.54 mm pitch                     | 1        | Mouser [649-68002-102HLF](https://www.mouser.com/ProductDetail/649-68002-102HLF)
 Jumper             | JP1       | Shunt, 2 pin, 2.54 mm pitch                     | 1        | Mouser [806-SX1100-B](https://www.mouser.com/ProductDetail/806-SX1100-B)
-IC Socket          | U1        | 20 pin DIP, 2.54 mm pitch, 7.62 mm row spacing  | 1        | Mouser [649-DILB20P-223TLF](https://www.mouser.com/ProductDetail/649-DILB20P-223TLF)
 IC Socket          | U2        | 24 pin DIP, 2.54 mm pitch, 15.24 mm row spacing | 1        | Mouser [649-DILB24P-223TLF](https://www.mouser.com/ProductDetail/649-DILB24P-223TLF)
 
 ## Software
